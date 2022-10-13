@@ -1,0 +1,146 @@
+body{
+    background-color:  #333;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin: 0;
+    background: linear-gradient(blue, green); 
+	background: -webkit-linear-gradient(rgba(0, 26, 255, 0.555), rgb(0, 255, 221)); 
+	background: -o-linear-gradient(rgb(128, 128, 128), green); 
+	background: -moz-linear-gradient(red, green); 
+  }
+
+li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: #000000;
+    text-align:right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .logo-text{
+    font-style: italic;
+  }
+  
+  mark {
+    background-color: palegoldenrod;
+    color: black;
+    }
+  
+  
+  
+   .tag {
+    margin-right: 0;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+  }
+  
+  .content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: #333;
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: #f7f8f9;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background-color: #acdadb5d;
+  }
+  
+  .content3 {
+    padding: 1% 12% 6% 12%;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 40% 60%;
+  }
+  
+  .text2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content4 {
+    text-align: center;
+    padding: 6% 12%;
+  }
+  
+  .content4 p {
+    font-size: 18px;
+  }
+  .content5 {
+    padding: 6% 12%;
+    background-color:rgba(94, 255, 0, 0);
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+  }
+  
+  div.gallery {
+    background-color:  #f7f8f9;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px 15px 30px 15px;
+    text-align: center;
+  }
+  
+*{
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 8px;
+    width: 24.99999%;
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer-main {
+    background-color: rgb(228, 225, 58);
+    padding: 5px 50px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: right;
+  }
+  
+  .footer-grid p {
+    margin: 10px 0;
+}
